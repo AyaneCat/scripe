@@ -61,16 +61,13 @@ def exist_xpath(xpath):
         return False
     return True
 
-#URL
-download_image("")
-
 
 driver = webdriver.Firefox()
 result_url = []
 try:
-    driver.get("") #URL
-    # 検索実行
-    search_word = u"佐倉綾音"
+    driver.get("https://www.google.co.jp/")
+    # 検索
+    search_word = u""
     print("tes1")
     search_box = driver.find_element_by_xpath("//*[@id='lst-ib']")
     print("tes2")
