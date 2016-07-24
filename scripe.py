@@ -61,14 +61,14 @@ def exist_xpath(xpath):
         return False
     return True
 
-
-download_image("https://www.google.co.jp/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png")
+#URL
+download_image("")
 
 
 driver = webdriver.Firefox()
 result_url = []
 try:
-    driver.get("https://www.google.co.jp/")
+    driver.get("") #URL
     # 検索実行
     search_word = u"佐倉綾音"
     print("tes1")
